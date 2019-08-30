@@ -4,11 +4,9 @@
   "slug": "ombi_docker",
   "description": "Ombi add-on based on the prebuilt docker image from linuxserver",
   "url": "https://github.com/NizZ8/hassio-addons-repo/ombi",
-  "webui": "[PROTO:ssl]://[HOST]:[PORT:3579]",  
-  "ingress": true,
-  "ingress_port": 61497,
-  "panel_icon": "mdi:emoticon-cool",  
-  "startup": "services",  
+  "webui": "http://[HOST]:[PORT:3579]",
+  "panel_icon": "mdi:emoticon-cool",
+  "startup": "services",
   "arch": [
     "aarch64",
     "amd64",
@@ -16,9 +14,6 @@
   ],
   "ports": {
     "3579/tcp": 3579
-  },
-  "ports_description": {
-    "3579/tcp": "Web interface"
   },
   "map": [
     "backup:rw",
@@ -28,8 +23,7 @@
   "boot": "auto",
   "environment": {
     "PUID": "0",
-    "PGID": "0",
-    "TZ": "America/Los_Angeles"
+    "PGID": "0"
   },
   "options": {},
   "schema": {}
