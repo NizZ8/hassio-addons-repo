@@ -18,9 +18,7 @@
     "3579/tcp": 3579
   },
   "ports_description": {
-    "3579/tcp": "Web interface",
-    //"80/tcp": "Web interface (Not required for Hass.io Ingress)",
-    // "4865/tcp": "API endpoint (For HA integration)"
+    "3579/tcp": "Web interface"
   },
   "map": [
     "backup:rw",
