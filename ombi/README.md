@@ -19,7 +19,7 @@ comparison to installing any other Hass.io add-on.
 
 ## Configuration
 
-Access the webui at <your-ip>:8989, for more information check out https://ombi.io/
+Access the webui at <your-ip>:3579, for more information check out https://ombi.io/
 
 By default hassio folders backup, share and ssl are available within the addon.
 You can use the share folder to access/store your media files.
