@@ -57,7 +57,7 @@ Roon Core Server (www.roonlabs.com) - The core manages your music collection fro
 
 Spotweb add-on based on the docker image erikdevries/spotweb
 
-### &#10003; [Spotweb][addon-ombi]
+### &#10003; [Ombi][addon-ombi]
 
 Ombi add-on based on the docker image linuxserver/ombi
 
