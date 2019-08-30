@@ -13,7 +13,7 @@ pretty easy. Follow [the official instructions][third-party-addons] on the
 website of Home Assistant, and use the following URL:
 
 ```txt
-https://github.com/marcelveldt/hassio-addons-repo
+https://github.com/NizZ8/hassio-addons-repo
 ```
 
 ## Add-ons provided by this repository
