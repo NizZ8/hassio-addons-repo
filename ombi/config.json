@@ -1,0 +1,38 @@
+{
+  "name": "Ombi",
+  "version": "latest",
+  "slug": "ombi_docker",
+  "description": "Ombi add-on based on the prebuilt docker image from linuxserver",
+  "url": "https://github.com/NizZ8/hassio-addons-repo/ombi",
+  "webui": "[PROTO:ssl]://[HOST]:[PORT:3579]",  
+  "ingress": true,
+  "ingress_port": 61497,
+  "panel_icon": "mdi:emoticon-cool",  
+  "startup": "services",  
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf"
+  ],
+  "ports": {
+    "3579/tcp": 3579
+  },
+  "ports_description": {
+    "3579/tcp": "Web interface",
+    //"80/tcp": "Web interface (Not required for Hass.io Ingress)",
+    // "4865/tcp": "API endpoint (For HA integration)"
+  },
+  "map": [
+    "backup:rw",
+    "share:rw",
+    "ssl"
+  ],
+  "boot": "auto",
+  "environment": {
+    "PUID": "0",
+    "PGID": "0",
+    "TZ": "America/Los_Angeles"
+  },
+  "options": {},
+  "schema": {}
+}
