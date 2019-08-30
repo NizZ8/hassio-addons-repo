@@ -61,6 +61,10 @@ Spotweb add-on based on the docker image erikdevries/spotweb
 
 Ombi add-on based on the docker image linuxserver/ombi
 
+### &#10003; [Jackett][addon-jackett]
+
+Ombi add-on based on the docker image linuxserver/jackett
+
 ## Contributing
 
 This is an active open-source project. Feel free to use the code and/or contribute changes.
@@ -74,6 +78,7 @@ This is an active open-source project. Feel free to use the code and/or contribu
 [addon-roon]: https://github.com/marcelveldt/hassio-addons-repo/tree/master/roon
 [addon-spotweb]: https://github.com/marcelveldt/hassio-addons-repo/tree/master/spotweb
 [addon-ombi]: https://github.com/NizZ8/hassio-addons-repo/tree/master/ombi
+[addon-jackett]: https://github.com/NizZ8/hassio-addons-repo/tree/master/jackett
 
 
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
