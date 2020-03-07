@@ -18,21 +18,6 @@ https://github.com/NizZ8/hassio-addons-repo
 
 ## Add-ons provided by this repository
 
-### &#10003; [Hassio Auto Backup][addon-autobackup]
-
-Automatically create/schedule snapshots of your hassio instance with some advanced finetuning and optional automatic upload to the cloud.
-
-
-### &#10003; [Google Assistant Webserver][addon-google-assistant-webserver]
-
-Webservice for the Google Assistant SDK - mofified version of the original by @AndBobsYourUncle with customizable broadcast command For my own personal use but maybe some other non-English hassio users can benefit from this too.
-
-
-### &#10003; [NZBget][addon-nzbget]
-
-Nzbget is a usenet downloader, written in C++ and designed with performance in mind to achieve maximum download speed by using very little system resources.
-
-
 ### &#10003; [Playlistsyncer][addon-playlistsyncer]
 
 This addon/docker image will allow you to sync playlists between several streaming services. I created this as a personal project but this might come in handy for others too. Supported streaming services: Spotify, Tidal and Qobuz Special: Also supports Roon (www.roonlabs.com) media software for syncing playlists.
@@ -47,15 +32,9 @@ A fork of Sonarr to work with movies à la Couchpotato.
 
 Sonarr (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
 
+### &#10003; [Sonarr_preview][addon-sonarr_preview]
 
-### &#10003; [Roon][addon-roon]
-
-Roon Core Server (www.roonlabs.com) - The core manages your music collection from many sources, and builds an interconnected digital library using enhanced information from Roon.
-
-
-### &#10003; [Spotweb][addon-spotweb]
-
-Spotweb add-on based on the docker image erikdevries/spotweb
+Sonarr (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.
 
 ### &#10003; [Ombi][addon-ombi]
 
@@ -69,16 +48,12 @@ Ombi add-on based on the docker image linuxserver/jackett
 
 This is an active open-source project. Feel free to use the code and/or contribute changes.
 
-[addon-autobackup]: https://github.com/marcelveldt/hassio-addons-repo/tree/master/autobackup
-[addon-google-assistant-webserver]: https://github.com/marcelveldt/hassio-addons-repo/tree/master/google-assistant-webserver
-[addon-nzbget]: https://github.com/marcelveldt/hassio-addons-repo/tree/master/nzbget
-[addon-playlistsyncer]: https://github.com/marcelveldt/hassio-addons-repo/tree/master/playlistsyncer
-[addon-radarr]: https://github.com/marcelveldt/hassio-addons-repo/tree/master/radarr
-[addon-sonarr]: https://github.com/marcelveldt/hassio-addons-repo/tree/master/sonarr
-[addon-roon]: https://github.com/marcelveldt/hassio-addons-repo/tree/master/roon
-[addon-spotweb]: https://github.com/marcelveldt/hassio-addons-repo/tree/master/spotweb
+[addon-radarr]: https://github.com/NizZ8/hassio-addons-repo/tree/master/radarr
+[addon-sonarr]: https://github.com/NizZ8/hassio-addons-repo/tree/master/sonarr
+[addon-sonarr_preview]: https://github.com/NizZ8/hassio-addons-repo/tree/master/sonarr_preview
 [addon-ombi]: https://github.com/NizZ8/hassio-addons-repo/tree/master/ombi
 [addon-jackett]: https://github.com/NizZ8/hassio-addons-repo/tree/master/jackett
+[addon-tautulli_host]: https://github.com/NizZ8/hassio-addons-repo/tree/master/tautulli_host
 
 
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg

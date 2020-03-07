@@ -20,6 +20,7 @@
   ],
   "webui": "http://[HOST]:[PORT:9090]",
   "boot": "auto",
+  "host_network": true,
   "environment": {
     "PUID": "0",
     "PGID": "0"

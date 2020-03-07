@@ -1,9 +1,9 @@
 {
-  "name": "Tautulli",
+  "name": "Tautulli_Host",
   "version": "1.5.0",
-  "slug": "tautulli",
+  "slug": "tautulli_host",
   "description": "Monitoring and tracking tool for Plex Media Server",
-  "url": "https://github.com/hassio-addons/addon-tautulli/tree/master/README.md",
+  "url": "https://github.com/NizZ8/hassio-addons-repo/tree/master/tautulli_host",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:8181]",
   "startup": "services",
   "arch": [
