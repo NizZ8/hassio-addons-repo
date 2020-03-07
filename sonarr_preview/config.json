@@ -1,0 +1,29 @@
+{
+  "name": "Sonarr_preview",
+  "version": "preview",
+  "slug": "sonarr_preview_docker",
+  "description": "Sonarr add-on based on the prebuilt docker image from linuxserver",  
+  "url": "https://github.com/NizZ8/hassio-addons-repo/sonarr_preview",
+  "startup": "services",
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf"
+  ],
+  "ports": {
+    "9090/tcp": 9090
+  },
+  "map": [
+    "backup:rw",
+    "share:rw",
+    "ssl"
+  ],
+  "webui": "http://[HOST]:[PORT:9090]",
+  "boot": "auto",
+  "environment": {
+    "PUID": "0",
+    "PGID": "0"
+  },
+  "options": {},
+  "schema": {}
+}
